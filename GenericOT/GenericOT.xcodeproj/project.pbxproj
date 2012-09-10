@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43460B411400A2D7004D401F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 43460B401400A2D7004D401F /* map.png */; };
+		437633B2140145B2006B3A74 /* RecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437633B0140145B2006B3A74 /* RecentViewController.m */; };
+		437633B3140145B2006B3A74 /* RecentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437633B1140145B2006B3A74 /* RecentViewController.xib */; };
+		437633BA1401464B006B3A74 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437633B91401464B006B3A74 /* MapKit.framework */; };
+		437633BE140147DE006B3A74 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437633BC140147DE006B3A74 /* MapViewController.m */; };
+		437633BF140147DE006B3A74 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437633BD140147DE006B3A74 /* MapViewController.xib */; };
+		4382CA34140858AE003FE008 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4382CA32140858AE003FE008 /* ResultsViewController.m */; };
+		4382CA35140858AE003FE008 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4382CA33140858AE003FE008 /* ResultsViewController.xib */; };
+		43A05A9813FF6AEC004C0387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A05A9713FF6AEC004C0387 /* UIKit.framework */; };
+		43A05A9A13FF6AEC004C0387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A05A9913FF6AEC004C0387 /* Foundation.framework */; };
+		43A05A9C13FF6AEC004C0387 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A05A9B13FF6AEC004C0387 /* CoreGraphics.framework */; };
+		43A05AA213FF6AEC004C0387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43A05AA013FF6AEC004C0387 /* InfoPlist.strings */; };
+		43A05AA413FF6AEC004C0387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A05AA313FF6AEC004C0387 /* main.m */; };
+		43A05AA813FF6AEC004C0387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A05AA713FF6AEC004C0387 /* AppDelegate.m */; };
+		43A05AB213FF6BF6004C0387 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A05AB113FF6BF6004C0387 /* MainWindow.xib */; };
+		43A05ABB13FF6C2E004C0387 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A05AB913FF6C2E004C0387 /* RootViewController.m */; };
+		43A05ABC13FF6C2E004C0387 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43A05ABA13FF6C2E004C0387 /* RootViewController.xib */; };
+		43C805771402AC2600389111 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C805741402A8C100389111 /* NewViewController.xib */; };
+		43C805781402AC3A00389111 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C805731402A8C100389111 /* NewViewController.m */; };
+		43D43A03140B331500BC9D7D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D43A02140B331500BC9D7D /* CoreLocation.framework */; };
+		D784D05E15BF1DB700E01DDF /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D784D05B15BF1DB700E01DDF /* HTMLNode.m */; };
+		D784D05F15BF1DB700E01DDF /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D784D05D15BF1DB700E01DDF /* HTMLParser.m */; };
+		D784D06115BF1DC400E01DDF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D784D06015BF1DC400E01DDF /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43460B401400A2D7004D401F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		437633AF140145B2006B3A74 /* RecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentViewController.h; sourceTree = "<group>"; };
+		437633B0140145B2006B3A74 /* RecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentViewController.m; sourceTree = "<group>"; };
+		437633B1140145B2006B3A74 /* RecentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentViewController.xib; sourceTree = "<group>"; };
+		437633B91401464B006B3A74 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		437633BB140147DE006B3A74 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		437633BC140147DE006B3A74 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		437633BD140147DE006B3A74 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		4382CA31140858AE003FE008 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		4382CA32140858AE003FE008 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		4382CA33140858AE003FE008 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		43A05A9313FF6AEC004C0387 /* GenericOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenericOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A05A9713FF6AEC004C0387 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43A05A9913FF6AEC004C0387 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43A05A9B13FF6AEC004C0387 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43A05A9F13FF6AEC004C0387 /* GenericOT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenericOT-Info.plist"; sourceTree = "<group>"; };
+		43A05AA113FF6AEC004C0387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43A05AA313FF6AEC004C0387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43A05AA513FF6AEC004C0387 /* GenericOT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericOT-Prefix.pch"; sourceTree = "<group>"; };
+		43A05AA613FF6AEC004C0387 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43A05AA713FF6AEC004C0387 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43A05AB113FF6BF6004C0387 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		43A05AB813FF6C2E004C0387 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		43A05AB913FF6C2E004C0387 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		43A05ABA13FF6C2E004C0387 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		43C805721402A8C100389111 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		43C805731402A8C100389111 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		43C805741402A8C100389111 /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+		43D43A02140B331500BC9D7D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D784D05A15BF1DB700E01DDF /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		D784D05B15BF1DB700E01DDF /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		D784D05C15BF1DB700E01DDF /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		D784D05D15BF1DB700E01DDF /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		D784D06015BF1DC400E01DDF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A05A9013FF6AEC004C0387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D784D06115BF1DC400E01DDF /* libxml2.dylib in Frameworks */,
+				43D43A03140B331500BC9D7D /* CoreLocation.framework in Frameworks */,
+				437633BA1401464B006B3A74 /* MapKit.framework in Frameworks */,
+				43A05A9813FF6AEC004C0387 /* UIKit.framework in Frameworks */,
+				43A05A9A13FF6AEC004C0387 /* Foundation.framework in Frameworks */,
+				43A05A9C13FF6AEC004C0387 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A05A8813FF6AEC004C0387 = {
+			isa = PBXGroup;
+			children = (
+				D784D06015BF1DC400E01DDF /* libxml2.dylib */,
+				43460B401400A2D7004D401F /* map.png */,
+				43A05AB813FF6C2E004C0387 /* RootViewController.h */,
+				43A05AB913FF6C2E004C0387 /* RootViewController.m */,
+				43A05ABA13FF6C2E004C0387 /* RootViewController.xib */,
+				437633BB140147DE006B3A74 /* MapViewController.h */,
+				437633BC140147DE006B3A74 /* MapViewController.m */,
+				437633BD140147DE006B3A74 /* MapViewController.xib */,
+				437633AF140145B2006B3A74 /* RecentViewController.h */,
+				437633B0140145B2006B3A74 /* RecentViewController.m */,
+				437633B1140145B2006B3A74 /* RecentViewController.xib */,
+				43C805721402A8C100389111 /* NewViewController.h */,
+				43C805731402A8C100389111 /* NewViewController.m */,
+				43C805741402A8C100389111 /* NewViewController.xib */,
+				4382CA31140858AE003FE008 /* ResultsViewController.h */,
+				4382CA32140858AE003FE008 /* ResultsViewController.m */,
+				4382CA33140858AE003FE008 /* ResultsViewController.xib */,
+				43A05A9D13FF6AEC004C0387 /* GenericOT */,
+				43A05A9613FF6AEC004C0387 /* Frameworks */,
+				43A05A9413FF6AEC004C0387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43A05A9413FF6AEC004C0387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A05A9313FF6AEC004C0387 /* GenericOT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A05A9613FF6AEC004C0387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D43A02140B331500BC9D7D /* CoreLocation.framework */,
+				437633B91401464B006B3A74 /* MapKit.framework */,
+				43A05A9713FF6AEC004C0387 /* UIKit.framework */,
+				43A05A9913FF6AEC004C0387 /* Foundation.framework */,
+				43A05A9B13FF6AEC004C0387 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43A05A9D13FF6AEC004C0387 /* GenericOT */ = {
+			isa = PBXGroup;
+			children = (
+				43A05AA613FF6AEC004C0387 /* AppDelegate.h */,
+				43A05AA713FF6AEC004C0387 /* AppDelegate.m */,
+				43A05AB113FF6BF6004C0387 /* MainWindow.xib */,
+				43A05A9E13FF6AEC004C0387 /* Supporting Files */,
+				D784D05915BF1D9800E01DDF /* HTML Parsing */,
+			);
+			path = GenericOT;
+			sourceTree = "<group>";
+		};
+		43A05A9E13FF6AEC004C0387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A05A9F13FF6AEC004C0387 /* GenericOT-Info.plist */,
+				43A05AA013FF6AEC004C0387 /* InfoPlist.strings */,
+				43A05AA313FF6AEC004C0387 /* main.m */,
+				43A05AA513FF6AEC004C0387 /* GenericOT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D784D05915BF1D9800E01DDF /* HTML Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				D784D05A15BF1DB700E01DDF /* HTMLNode.h */,
+				D784D05B15BF1DB700E01DDF /* HTMLNode.m */,
+				D784D05C15BF1DB700E01DDF /* HTMLParser.h */,
+				D784D05D15BF1DB700E01DDF /* HTMLParser.m */,
+			);
+			name = "HTML Parsing";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A05A9213FF6AEC004C0387 /* GenericOT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A05AAE13FF6AEC004C0387 /* Build configuration list for PBXNativeTarget "GenericOT" */;
+			buildPhases = (
+				43A05A8F13FF6AEC004C0387 /* Sources */,
+				43A05A9013FF6AEC004C0387 /* Frameworks */,
+				43A05A9113FF6AEC004C0387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericOT;
+			productName = GenericOT;
+			productReference = 43A05A9313FF6AEC004C0387 /* GenericOT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A05A8A13FF6AEC004C0387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rose-Hulman";
+			};
+			buildConfigurationList = 43A05A8D13FF6AEC004C0387 /* Build configuration list for PBXProject "GenericOT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43A05A8813FF6AEC004C0387;
+			productRefGroup = 43A05A9413FF6AEC004C0387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A05A9213FF6AEC004C0387 /* GenericOT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A05A9113FF6AEC004C0387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C805771402AC2600389111 /* NewViewController.xib in Resources */,
+				43A05AA213FF6AEC004C0387 /* InfoPlist.strings in Resources */,
+				43A05AB213FF6BF6004C0387 /* MainWindow.xib in Resources */,
+				43A05ABC13FF6C2E004C0387 /* RootViewController.xib in Resources */,
+				43460B411400A2D7004D401F /* map.png in Resources */,
+				437633B3140145B2006B3A74 /* RecentViewController.xib in Resources */,
+				437633BF140147DE006B3A74 /* MapViewController.xib in Resources */,
+				4382CA35140858AE003FE008 /* ResultsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A05A8F13FF6AEC004C0387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C805781402AC3A00389111 /* NewViewController.m in Sources */,
+				43A05AA413FF6AEC004C0387 /* main.m in Sources */,
+				43A05AA813FF6AEC004C0387 /* AppDelegate.m in Sources */,
+				43A05ABB13FF6C2E004C0387 /* RootViewController.m in Sources */,
+				437633B2140145B2006B3A74 /* RecentViewController.m in Sources */,
+				437633BE140147DE006B3A74 /* MapViewController.m in Sources */,
+				4382CA34140858AE003FE008 /* ResultsViewController.m in Sources */,
+				D784D05E15BF1DB700E01DDF /* HTMLNode.m in Sources */,
+				D784D05F15BF1DB700E01DDF /* HTMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43A05AA013FF6AEC004C0387 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A05AA113FF6AEC004C0387 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A05AAC13FF6AEC004C0387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43A05AAD13FF6AEC004C0387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A05AAF13FF6AEC004C0387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericOT/GenericOT-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "GenericOT/GenericOT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43A05AB013FF6AEC004C0387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericOT/GenericOT-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "GenericOT/GenericOT-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A05A8D13FF6AEC004C0387 /* Build configuration list for PBXProject "GenericOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A05AAC13FF6AEC004C0387 /* Debug */,
+				43A05AAD13FF6AEC004C0387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A05AAE13FF6AEC004C0387 /* Build configuration list for PBXNativeTarget "GenericOT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A05AAF13FF6AEC004C0387 /* Debug */,
+				43A05AB013FF6AEC004C0387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A05A8A13FF6AEC004C0387 /* Project object */;
+}
